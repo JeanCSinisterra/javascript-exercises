@@ -1,7 +1,7 @@
 const repeatString = function (str, count) {
-    // if (count < 0 ) {
-    //     return 'Count must be greater than or equal to 0';
-    // }
+    if (count < 0 ) {
+        return 'Count must be greater than or equal to 0';
+    }
 
     let result = '';
     for (let i = 0; i < count; i++) {
