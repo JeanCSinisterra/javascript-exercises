@@ -59,7 +59,7 @@ const books = [
 ];
 
 const booksTitles = getTheTitles(books);
-console.log(booksTitles); // Output: ["Book", "Book2"]
+console.log(booksTitles);
 
 
 // Do not edit below this line
